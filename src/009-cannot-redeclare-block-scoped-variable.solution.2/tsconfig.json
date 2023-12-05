@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "skipLibCheck": true,
+    "target": "es2022",
+    "esModuleInterop": true, // Makes working with CommonJS easier
+    "allowJs": true, // Lets you import .js files
+    "resolveJsonModule": true, // Lets you import .json files
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    /* If NOT transpiling with TypeScript: */
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "noEmit": true,
+    /* If your code doesn't run in the DOM: */
+    "lib": [
+      "es2022",
+      "dom",
+      "dom.iterable",
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
