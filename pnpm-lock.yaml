@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@total-typescript/exercise-cli':
-    specifier: ^0.3.2
-    version: 0.3.2
+    specifier: ^0.4.0
+    version: 0.4.0(typescript@5.3.2)(vitest@0.34.6)
   '@types/node':
     specifier: ^20.10.3
     version: 20.10.3
@@ -271,14 +271,21 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@total-typescript/exercise-cli@0.3.2:
-    resolution: {integrity: sha512-jie+HqoiOyXpOwGuG5mMgbJwqmwmfk0Oh1KIRCjfCYTzoSzMNxm09alzSIOB17pTqHYh4y2Qt9m/J3/azQt8uA==}
+  /@total-typescript/exercise-cli@0.4.0(typescript@5.3.2)(vitest@0.34.6):
+    resolution: {integrity: sha512-iSliKtEM1nShevoVQbEsnuT2D9s74taI2GIuUmIziReROUHRfj1TSQ16X0WMGPZsWp/XxX5ZvkoM4h1Eg21uLw==}
     hasBin: true
+    peerDependencies:
+      typescript: ^5.2.2
+      vitest: ^0.34.4
     dependencies:
       chokidar: 3.5.3
+      colors: 1.4.0
       commander: 10.0.1
       fast-glob: 3.3.1
       jsonc-parser: 3.2.0
+      prompts: 2.4.2
+      typescript: 5.3.2
+      vitest: 0.34.6(jsdom@21.1.2)
     dev: true
 
   /@types/chai-subset@1.3.4:
@@ -436,6 +443,11 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.3
+    dev: true
+
+  /colors@1.4.0:
+    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
+    engines: {node: '>=0.1.90'}
     dev: true
 
   /combined-stream@1.0.8:
@@ -741,6 +753,11 @@ packages:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: true
 
+  /kleur@3.0.3:
+    resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
+    engines: {node: '>=6'}
+    dev: true
+
   /local-pkg@0.4.3:
     resolution: {integrity: sha512-SFppqq5p42fe2qcZQqqEOiVRXl+WCP1MdT6k7BDEW1j++sp5fIY+/fdRQitvKgB5BrBcmrs5m/L0v2FrU5MY1g==}
     engines: {node: '>=14'}
@@ -886,6 +903,14 @@ packages:
       react-is: 18.2.0
     dev: true
 
+  /prompts@2.4.2:
+    resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
+    engines: {node: '>= 6'}
+    dependencies:
+      kleur: 3.0.3
+      sisteransi: 1.0.5
+    dev: true
+
   /psl@1.9.0:
     resolution: {integrity: sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==}
     dev: true
@@ -954,6 +979,10 @@ packages:
 
   /siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
+    dev: true
+
+  /sisteransi@1.0.5:
+    resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: true
 
   /source-map-js@1.0.2:

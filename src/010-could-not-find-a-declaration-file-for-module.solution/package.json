@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Matt Pocock",
+  "dependencies": {
+    "diff": "^5.1.0",
+    "@types/diff": "^5.0.0"
+  }
+}
