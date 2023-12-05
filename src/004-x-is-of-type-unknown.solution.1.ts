@@ -7,5 +7,5 @@ const somethingDangerous = () => {
 try {
   somethingDangerous();
 } catch (error) {
-  console.log(error.message);
+  console.log((error as Error).message);
 }
