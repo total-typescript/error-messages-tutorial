@@ -5,5 +5,5 @@ const productPrices = {
 };
 
 const getPrice = (productName: string) => {
-  return productPrices[productName];
+  return productPrices[productName as keyof typeof productPrices];
 };

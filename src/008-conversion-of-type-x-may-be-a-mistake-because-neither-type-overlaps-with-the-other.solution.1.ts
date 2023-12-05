@@ -4,4 +4,4 @@ interface Dog {
 
 let cat = { purr: true };
 
-let dog = cat as Dog;
+let dog = cat as unknown as Dog;
