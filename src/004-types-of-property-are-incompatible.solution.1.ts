@@ -1,7 +1,7 @@
 const createRoutes = (config: {
   routes: {
     path: string;
-    component: string;
+    component: string | number;
   }[];
 }) => {};
 

@@ -1,7 +1,7 @@
 type RoutingConfig = {
   routes: {
     path: string;
-    component: string;
+    component: string | number;
   }[];
 };
 
