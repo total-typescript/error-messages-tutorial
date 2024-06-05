@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@total-typescript/exercise-cli':
-        specifier: ^0.6.0
-        version: 0.6.1(typescript@5.4.5)(vitest@1.6.0(@types/node@20.10.3)(jsdom@21.1.2))
+        specifier: ^0.7.0
+        version: 0.7.0(typescript@5.4.5)(vitest@1.6.0(@types/node@20.10.3)(jsdom@21.1.2))
       '@types/node':
         specifier: ^20.10.3
         version: 20.10.3
@@ -253,8 +253,8 @@ packages:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
 
-  '@total-typescript/exercise-cli@0.6.1':
-    resolution: {integrity: sha512-6s/zzQ1LomYt3tlnHkTTZfavmn23Ye6p1ixgir08A9buDiKHnSxwpx1ErthJokyPhDsKZg5kK4OgE5gxI6znOQ==}
+  '@total-typescript/exercise-cli@0.7.0':
+    resolution: {integrity: sha512-AOkIQqZZkYoydhoKmhYvENSbWlk3D8zvuEnrMF68HMyKWYpvBWL8ZscZ8d3RZbULgjYDhwfSehNHW0HSmxKTjg==}
     hasBin: true
     peerDependencies:
       typescript: '*'
@@ -350,9 +350,9 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  commander@10.0.1:
-    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
-    engines: {node: '>=14'}
+  commander@12.1.0:
+    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
+    engines: {node: '>=18'}
 
   cross-fetch@3.1.8:
     resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
@@ -1044,11 +1044,11 @@ snapshots:
 
   '@tootallnate/once@2.0.0': {}
 
-  '@total-typescript/exercise-cli@0.6.1(typescript@5.4.5)(vitest@1.6.0(@types/node@20.10.3)(jsdom@21.1.2))':
+  '@total-typescript/exercise-cli@0.7.0(typescript@5.4.5)(vitest@1.6.0(@types/node@20.10.3)(jsdom@21.1.2))':
     dependencies:
       chokidar: 3.6.0
       colors: 1.4.0
-      commander: 10.0.1
+      commander: 12.1.0
       fast-glob: 3.3.2
       jsonc-parser: 3.2.1
       prompts: 2.4.2
@@ -1160,7 +1160,7 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  commander@10.0.1: {}
+  commander@12.1.0: {}
 
   cross-fetch@3.1.8:
     dependencies:
