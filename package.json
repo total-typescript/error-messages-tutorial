@@ -42,5 +42,6 @@
     "s-009": "tt-cli run 009 --solution",
     "e-010": "tt-cli run 010",
     "s-010": "tt-cli run 010 --solution"
-  }
+  },
+  "type": "module"
 }
