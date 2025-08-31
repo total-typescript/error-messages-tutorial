@@ -8,7 +8,7 @@
   "devDependencies": {
     "@total-typescript/exercise-cli": "^0.11.0",
     "@types/node": "^20.10.3",
-    "jsdom": "^25.0.0",
+    "jsdom": "^26.0.0",
     "prettier": "^3.0.0",
     "typescript": "^5.3.0",
     "vite-tsconfig-paths": "^5.0.0",
